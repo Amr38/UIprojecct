@@ -1,0 +1,256 @@
+.navbar{
+	position: fixed;
+	width: 100%;
+	background: transparent!important;
+	z-index: 4!important;
+	padding-right: 15px !important;
+	margin-right: auto!important;
+}
+.navbar-brand{
+	background-color: #E6EE51 !important;
+	padding: 20px !important;
+	box-sizing: border-box!important;
+}
+.projects .cards .col-6{
+	max-width: 576px!important;
+}
+
+.home{
+	background:url(../assets/images/1.jpg) no-repeat center center/100% 100%;
+	height: 100vh;
+	
+}
+.container-fluid{
+	padding-left: 0px!important;
+}
+.home .last-text{
+	top: 45%;
+	left: 17%;
+}
+
+.home .last-txt{
+	font-size: 2.5vw;
+	position: static;
+}
+.home .last-txt:after{
+	width: 70%;
+}
+.qoute:after{
+	content: '-JOHN MAEDA' !important;
+	color: white;
+	font-size: 1vw;
+	position: absolute;
+	top: 50%;
+	left: 70%;
+
+}
+.rotated-word{
+	display:block;
+    transform: rotate(-90deg); 
+    color: white;
+    position: absolute;
+    font-size: 1vw;
+    top: 43%;
+    left: 7%;
+}
+.second-rotated-word{
+	width: 100px;
+	left: 330%;
+}
+
+.about{
+	height: 120vh;
+}
+.about-paragraph{
+	color: black;
+	font-size: 1.5vw;
+}
+.about .last-text{
+	left: 30%;
+}
+.about-image{
+	position: relative;
+	top:20%;
+}
+
+
+
+.service{
+	background:url(../assets/images/3.jpg) no-repeat center center/100% 100%;
+	height: 120vh;
+}
+.brder{
+	width: 20%;
+	height: 4px;
+	background-color: #E6EE51;
+	border-radius: 1px;
+	margin-top: 30px; 
+}
+.service-paragraph{
+	color: white;
+	margin-top: 35px;
+	font-size: 1vw;
+}
+.service .last-text{
+	top: 25%;
+	left:12%; 
+}
+.service-container{
+	background-color: rgba(255, 255, 255, 0.9);
+	box-sizing: border-box!important;
+	padding: 50px 70px 50px 70px!important;
+	position: relative;
+	top: 10%;
+	left: -20%;
+	z-index: 3;
+}
+.service-item-title{
+	font-size: 1.3vw;
+}
+.service-item-paragraph{
+	font-size: 1.3vw;
+}
+.icon{
+	color: #E6EE51;
+	font-size: 3vw;
+	padding-bottom: 15px;
+}
+
+.projects{
+	height: 110vh;
+}
+
+.activee{
+	color: #E6EE51; 
+}
+.projects .last-txt{
+	color: black;
+}
+.card-item{
+	position: relative;
+	height: 100%;
+	padding: 0!important;
+}
+.img-caption{
+	position: absolute;
+	height: 90%;
+	width: 90%;
+	opacity: 0;
+	top: 50%;
+	right: 50%;
+	transform: translate(50%,-50%);
+	background-color: rgba(230, 238, 81, 0.8);
+	transition: 3s;
+	text-align: center;
+	font-size: 1.2vw;
+	border-radius: 2px;
+}
+.img-title{
+	font-size: 1.5vw;
+}
+.cards .icon{
+	color: black;
+}
+.card-item:hover .img-caption{
+	opacity: 1;
+}
+.btns{
+	text-align: right;
+	list-style-type: none;
+	margin: auto;
+	justify-content: center;
+	color: black;
+	position: relative;
+	bottom: -50%;
+}
+.buttons{
+	padding-bottom: 20px;
+	transition: 1s;
+}
+
+
+.get-in-touch{
+	background: url(../assets/images/8.jpg) no-repeat center center/100% 100%;
+	height: 120vh;
+}
+.dark-part{
+	background-color: rgba(59,54,60,0.9);
+	height: 100%;
+	z-index: 2;
+	position: relative;
+}
+.middle-last-word{
+	position: absolute;
+	top: 40%;
+	left: 0;
+	z-index: 1;
+}
+.mid-last-word{
+	font-size: 9vw;
+	color: 	rgba(237, 237, 237, 0.2);
+	
+}
+.last-span{
+	color:#E6EE51;
+}
+.last-text{
+	position: absolute;
+	top: 20%;
+	left: 30%;
+	z-index: 3; 
+}
+.last-txt{
+	font-size: 3vw;
+	color: white;
+	display: inline-block;
+	margin-bottom: 35px;
+	position: relative;
+}
+.last-txt::after{
+	content: '';
+	position: absolute;
+    width: 140%;
+    height: 140%;
+    top: -20%;
+    left: 35%;
+    border: solid 9px rgba(237, 237, 237, 0.2) ; /*rgba(77,72,78,0.9)*/
+    border-radius: 2px;
+    z-index: -1;
+}
+.form-container{
+	position:relative;
+	top: 20%;
+}
+.form-control{
+	background-color: transparent!important;
+	border: 0!important;
+	border-bottom: 1px solid white!important; 
+}
+.form-control::placeholder { 
+	color: white;
+}
+.btn{
+	color: white;
+	background-color: transparent;
+	width: 25%;
+	text-align: left;
+}
+.last-icon{
+	color: yellow;
+}
+.contacts{
+	position: relative;
+	top: 60%;
+	left: 47%;
+	font-size: 1.5vw;
+}
+.contact{
+	color: white;
+}
+.contact-color{
+	color: yellow;
+}
+
+@media only screen and (max-width: 420px){
+	
+}
